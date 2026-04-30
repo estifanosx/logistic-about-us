@@ -173,7 +173,7 @@ body {
   gap: 40px;
 
   padding: 60px;
-  padding-top:10px;
+  padding-top: 10px;
 }
 .left.part {
   flex: 1;
@@ -200,7 +200,7 @@ body {
   justify-content: center;
 
   margin: auto;
-    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
   transition: 0.3s ease;
 }
 .icon-circle:hover {
@@ -211,7 +211,8 @@ body {
   width: 80px;
   height: 80px;
 
-  filter: brightness(0) saturate(100%) invert(32%) sepia(98%) saturate(2000%) hue-rotate(210deg);
+  filter: brightness(0) saturate(100%) invert(32%) sepia(98%) saturate(2000%)
+    hue-rotate(210deg);
 }
 
 @media (max-width: 768px) {
@@ -246,7 +247,8 @@ body {
 .time,
 .security,
 .friend {
-  filter: brightness(0) saturate(100%) invert(32%) sepia(98%) saturate(2000%) hue-rotate(210deg);
+  filter: brightness(0) saturate(100%) invert(32%) sepia(98%) saturate(2000%)
+    hue-rotate(210deg);
 }
 #text-container {
   text-align: center;
@@ -275,4 +277,70 @@ body {
 #text2:hover::after {
   width: 100%;
 }
+#section6 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 30px;
+padding-top:10px;
+  padding: 40px;
+  background: #c5c7cc;
+  border-radius: 12px;
+}
+#section6 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 30px;
 
+  padding: 40px;
+  background: #f4f7ff;
+  border-radius: 12px;
+}
+#icon-left {
+  width: 90px;
+  height: 90px;
+  background: #e6f0ff; /* light blue background */
+  border-radius: 50%;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.08);
+}
+#icon-left img {
+  width: 45px;
+  height: 45px;
+
+  filter: brightness(0) saturate(100%) invert(32%) sepia(98%) saturate(2000%)
+    hue-rotate(210deg);
+}
+#text-middle {
+  flex: 1;
+}
+
+#text-middle h2 {
+  margin: 0;
+  font-size: 24px;
+}
+#text3 {
+    text-align:center;
+}
+
+#text-middle p {
+  margin-top: 5px;
+  color:rgb(24, 23, 23);
+}
+#button-right button {
+  padding: 12px 20px;
+  border: none;
+  background: #2563eb;
+  color: white;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+#button-right button:hover {
+  background: #1e40af;
+}

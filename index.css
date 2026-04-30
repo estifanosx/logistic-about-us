@@ -109,8 +109,8 @@ body {
   border-radius: 10px;
 }
 #text1 {
-    color:blue;
-    font-size:10px;
+  color: blue;
+  font-size: 10px;
 }
 @media (max-width: 768px) {
   .about-section {
@@ -121,4 +121,49 @@ body {
   .about-image {
     text-align: center;
   }
+}
+#section2 {
+  text-align: center;
+  padding: 60px 20px;
+  background: #ffffff;
+  letter-spacing: 0.3px;
+  padding-top:5px;
+}
+#section2 h2 {
+  font-size: 32px;
+  margin-bottom: 20px;
+  color: #111;
+}
+
+#section2 p {
+  max-width: 700px;
+  margin: 0 auto 10px auto;
+  font-size: 16px;
+  line-height: 1.6;
+  color: black;
+}
+.section-title {
+  display: inline-block;
+  position: relative;
+  cursor: pointer;
+  color: black;
+  transition: color 0.3s ease;
+}
+.section-title {
+    color:blue;
+}
+
+
+.section-title::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -5px;
+  width: 0%;
+  height: 2px;
+  background: blue;
+  transition: width 0.3s ease;
+}
+.section-title:hover::after {
+  width: 100%;
 }

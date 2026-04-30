@@ -220,3 +220,59 @@ body {
     text-align: center;
   }
 }
+#inside-section5 {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+  padding: 40px;
+}
+.card3 {
+  background: #f8fafc;
+  padding: 20px;
+  border-radius: 12px;
+  text-align: center;
+
+  transition: transform 0.3s ease;
+}
+.card3:hover {
+  transform: translateY(-5px);
+}
+.icon2 {
+  width: 50px;
+  height: 50px;
+  margin-bottom: 10px;
+}
+.reliable,
+.time,
+.security,
+.friend {
+  filter: brightness(0) saturate(100%) invert(32%) sepia(98%) saturate(2000%) hue-rotate(210deg);
+}
+#text-container {
+  text-align: center;
+}
+
+#text2 {
+  position: relative;
+  display: inline-block;
+  color: black;
+  font-size: 24px;
+  text-decoration: none;
+  text-align: center;
+}
+
+#text2::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -5px;
+  width: 0%;
+  height: 2px;
+  background-color: blue;
+  transition: width 0.3s ease;
+}
+
+#text2:hover::after {
+  width: 100%;
+}
+
